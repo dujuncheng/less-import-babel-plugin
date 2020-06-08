@@ -5,7 +5,7 @@ const code = ` import {flattenDeep, chunk} from 'lodash' `
 const res = babel.transformSync(code, {
   plugins: [
     [
-      require('./index.js'),
+      'less-import',
       {
         library: 'lodash' // 指定处理的库
       }
