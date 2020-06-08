@@ -18,6 +18,13 @@ import chunk from 'lodash/chunk'
 
  ```
 
+## 使用
+
+```
+npm install less-import-babel-plugin --save
+
+```
+
 ## 配置.babelrc
 ```
 {
@@ -27,7 +34,7 @@ import chunk from 'lodash/chunk'
     ],
     "plugins": [
         [
-            "less-import", // 配置插件
+            "less-import-babel-plugin", // 配置插件
             {
                 "library": "lodash" // 指定处理的库
             }

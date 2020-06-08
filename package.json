@@ -1,0 +1,19 @@
+{
+  "name": "less-import-babel-plugin",
+  "version": "1.0.1",
+  "description": "痛点： 当我们导入lodash中指定的工具函数时 会将整个lodash打包进来",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dujuncheng/less-import-babel-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dujuncheng/less-import-babel-plugin/issues"
+  },
+  "homepage": "https://github.com/dujuncheng/less-import-babel-plugin#readme"
+}
